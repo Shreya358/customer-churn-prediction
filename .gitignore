@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data (keep raw/processed out of git if large; comment out if you want to commit them)
+data/processed/*.csv
+
+# Models (pkl files can be large; comment out if you want to commit them)
+models/*.pkl
+
+# Images (generated output)
+images/*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment variables (NEVER commit DB passwords)
+.env
+
+# Logs
+*.log
